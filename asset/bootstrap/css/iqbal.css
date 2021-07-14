@@ -1,0 +1,35 @@
+.footer-iqbal {
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.bg-iqbal {
+  background-color: #292929;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #292929;
+}
+
+.btn {
+  background-color: #d69829;
+}
+
+.ftt {
+  background-color: #292929;
+}
+
+a:hover {
+  color: #d69829;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
