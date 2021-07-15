@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+       <!-- icon title -->
+       <link rel="icon" href="img/ICON-WEB-IDEAS.jpg">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | &copy;IDEAS INDONESIA</title>
      <!-- CSS BOOTSTRAP -->
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- MY CSS -->
     <link rel="stylesheet" href="asset/bootstrap/css/iqbal.css" />
     <!-- GOOGLE FONTS -->
@@ -18,7 +22,7 @@
 </head>
 <body>
     <!-- START NAVBAR -->
-   <div class="navbar navbar-expand-lg navbar-dark bg-iqbal">
+   <div class="navbar navbar-expand-lg navbar-dark bg-iqbal" data-aos="fade-down" data-aos-duration="1000"> 
        <div class="container">
            <a href="index.html" class="navbar-brand">
               <img src="img/logostudioideas-01.svg" width="60px" alt="">
@@ -70,7 +74,7 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="100">
                             <div class="card">
                                 <img src="img/blog-product/product-blog-1-01.jpg" alt="" class="card-img-top">
                                 <div class="card-body">
@@ -92,9 +96,9 @@
                         <!-- BOX 1 END -->
 
                         <!-- BOX 2 -->
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="100"> 
                             <div class="card">
-                                <img src="img/blog-product/product-blog-2-01.jpg" alt="" class="card-img-top">
+                                <img src="img/blog-product/product-blog-2-01.jpg" alt="" class="card-img-top" >
                                 <div class="card-body">
                                     <h5 class="card-tittle">Desain Kalender</h5>
                                     <p>
@@ -114,7 +118,7 @@
                         <!-- BOX 2 END -->
 
                         <!-- B0X 3 -->
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down-left" data-aos-duration="1000" data-aos-offset="100">
                             <div class="card">
                                 <img src="img/blog-product/product-blog-3-01.jpg" alt=" class="card-img-top">
                                 <div class="card-body">
@@ -136,7 +140,7 @@
                         <!-- BOX 3 END -->
 
                         <!-- BOX 4 -->
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down-right" data-aos-duration="1000" data-aos-offset="100"> 
                             <div class="card">
                                 <img src="img/blog-product/product-blog-4-01.jpg" alt="" class="card-img-top">
                                 <div class="card-body">
@@ -158,7 +162,7 @@
                         <!-- BOX 4 END -->
 
                         <!-- BOX 5 -->
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="100">
                             <div class="card">
                                 <img src="img/blog-product/product-blog-5-01.jpg" alt="" class="card-img-top">
                                 <div class="card-body">
@@ -180,7 +184,7 @@
                         <!-- BOX 5 END -->
 
                         <!-- BOX 6 -->
-                        <div class="col-md-4 mt-3">
+                        <div class="col-md-4 mt-3" data-aos="fade-down-left" data-aos-duration="1000" data-aos-offset="100">
                             <div class="card">
                                 <img src="img/blog-product/product-blog-6-01.jpg" alt="" class="card-img-top">
                                 <div class="card-body">
@@ -204,7 +208,7 @@
                 <!-- BOX 6 END -->
 
                 <!-- Popular Blog -->
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="fade-left" data-aos-duration="1000">
                     <form action="blog.html" class="mt-3">
                         <input type="text" class="form-control" placeholder="Find here . . . ?">
                     </form>
@@ -376,20 +380,19 @@
             </div>
         </div>
         <!-- END PRODUCT -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="#292929"
-              fill-opacity="1"
-              d="M0,64L48,80C96,96,192,128,288,160C384,192,480,224,576,218.7C672,213,768,171,864,181.3C960,192,1056,256,1152,250.7C1248,245,1344,171,1392,133.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
+        
           <!-- START FOOTER -->
-          <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal">
+          <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="20">
             &copy; 2021 Seluruh Hak Cipta Dilindungi dibuat dengan <i class="bi bi-heart-fill"></i> oleh Bays-Code</div>
         </div>
     </div>
     <!-- END FOOTER -->
     <!-- BOOTSTRAP JS -->
     <script src="asset/bootstrap/js/bootstrap.min.js""></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

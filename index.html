@@ -9,6 +9,8 @@
     <title>IDEAS INDONESIA</title>
     <!-- CSS BOOTSTRAP -->
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- MY CSS -->
     <link rel="stylesheet" href="asset/bootstrap/css/iqbal.css" />
     <!-- GOOGLE FONTS -->
@@ -21,7 +23,7 @@
   <body>
     
     <!-- START NAVBAR -->
-    <div class="navbar navbar-expand-lg navbar-dark bg-iqbal shadow-sm">
+    <div class="navbar navbar-expand-lg navbar-dark bg-iqbal shadow-sm" data-aos="fade-down" data-aos-duration="1000">
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img src="img/logostudioideas-01.svg" width="60px" alt="" />
@@ -54,7 +56,7 @@
 
     <!-- START SLIDER -->
     <div>
-      <div id="baysSlider" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-target="#baysSlider">
+      <div id="baysSlider" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-target="#baysSlider" data-aos="zoom-in-down" data-aos-duration="2000">
         <button type="button" class="carousel-control-prev" data-bs-target="#baysSlider" data-bs-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </button>
@@ -87,7 +89,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#292929" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,213.3C384,235,480,277,576,272C672,267,768,213,864,208C960,203,1056,245,1152,240C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
 
       <div class="container mt-4">
-        <button class="btn btn w-100 text-white" type="button" data-bs-toggle="modal" data-bs-target="#modalBays"><strong>KLIK DISINI UNTUK VOUCHER PROMO</strong></button>
+        <button class="btn btn w-100 text-white" type="button" data-bs-toggle="modal" data-bs-target="#modalBays" data-aos="fade-down" data-aos-duration="1000"><strong>KLIK DISINI UNTUK VOUCHER PROMO</strong></button>
         <div class="modal" id="modalBays">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -116,7 +118,7 @@
       <!-- T-Shirt -->
       <div class="container">
         <div class="row">
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-kaos.jpg" class="card-img-top" />
               <div class="card-body">
@@ -131,7 +133,7 @@
           <!-- end t-shirt -->
 
           <!-- social media feed -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-media-sosial.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -146,7 +148,7 @@
           <!-- end social media -->
 
           <!-- Banner -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-up-left" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-banner.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -161,7 +163,7 @@
           <!-- end banner -->
 
           <!-- Flyer -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-up-left" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-flyer.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -176,7 +178,7 @@
           <!-- end flyer -->
 
           <!-- Undangan -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-down-right" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-undangan.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -191,7 +193,7 @@
           <!-- end undangan -->
 
           <!-- Logo -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-down-right" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-logo.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -206,7 +208,7 @@
           <!-- end logo -->
 
           <!-- PPT Presentasi -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3" data-aos="fade-down-left" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-ppt.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -221,7 +223,7 @@
           <!-- end ppt presentasi -->
 
           <!-- Kartu nama -->
-          <div class="col-md-3 mt-3">
+          <div class="col-md-3 mt-3 mb-5" data-aos="fade-down-left" data-aos-duration="1000">
             <div class="card">
               <img src="img/icon/product-icon-kartu-nama.jpg" alt="" class="card-img-top" />
               <div class="card-body">
@@ -239,20 +241,20 @@
       <!-- END PRODUCT -->
 
       <!-- START FOOTER -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#292929"
-          fill-opacity="1"
-          d="M0,64L48,80C96,96,192,128,288,160C384,192,480,224,576,218.7C672,213,768,171,864,181.3C960,192,1056,256,1152,250.7C1248,245,1344,171,1392,133.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
 
-      <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal">
+      <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="20"> 
         &copy; 2021 Seluruh Hak Cipta Dilindungi dibuat dengan <i class="bi bi-heart-fill"></i> oleh Bays-Code</div>
     </div>
     <!-- END FOOTER -->
 
     <!-- BOOTSTRAP JS -->
     <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
   </body>
 </html>

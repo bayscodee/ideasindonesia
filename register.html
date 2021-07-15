@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+       <!-- icon title -->
+       <link rel="icon" href="img/ICON-WEB-IDEAS.jpg">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register | &copy;IDEAS INDONESIA</title>
      <!-- CSS BOOTSTRAP -->
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- MY CSS -->
     <link rel="stylesheet" href="asset/bootstrap/css/iqbal.css" />
     <!-- GOOGLE FONTS -->
@@ -17,7 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
-   <div class="navbar navbar-expand-lg navbar-dark bg-iqbal">
+   <div class="navbar navbar-expand-lg navbar-dark bg-iqbal" data-aos="fade-down" data-aos-duration="1000">
        <div class="container">
            <a href="index.html" class="navbar-brand">
                <img src="img/logostudioideas-01.svg" width="60px" alt="">
@@ -49,12 +53,23 @@
        </div>
    </div>
     <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-4">
-                    <div class="card mt-4">
+        <!-- START BREADCUMB -->
+        <div class="container pt-2 mb-5">
+            <h4>REGISTER</h4>
+            <div class="bg-light p-2">
+                <ul class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                      <a href="register.html" class="text-decoration-none active">Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END BREADCUMB -->
+        <div class="container" style="background-image: url(img/background-register.png); background-position: bottom;">
+            <div class="row justify-content-center">
+                <div class="col-md-4" data-aos="zoom-out">
+                    <div class="card mt-3">
                         <div class="card-header text-center">
-                            <strong>FORM</strong> LOGIN
+                            <strong>FORM</strong> REGISTER
                         </div>
                         <div class="card-body">
                            
@@ -86,10 +101,18 @@
                 </div>
             </div>
         </div>
-        <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal">
+        </div>
+        <div class="ftt text-center text-white pt-2 pb-2 footer-iqbal" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="20">
             &copy; 2021 Seluruh Hak Cipta Dilindungi dibuat dengan <i class="bi bi-heart-fill"></i> oleh Bays-Code</div>
         </div>
     </div>
-    <script src="asset/bootstrap/js/bootstrap.min.js""></script>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+    
 </body>
 </html>
